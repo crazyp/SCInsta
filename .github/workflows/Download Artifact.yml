@@ -1,4 +1,6 @@
-on: workflow_dispatch
+name: Manual Dispatch
+on: 
+  workflow_dispatch
 - uses: actions/download-artifact@v4
   with:
     name: SCInsta
